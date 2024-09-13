@@ -9,6 +9,8 @@ yarn-error.log*
 node_modules/
 .pnp
 .pnp.js
+# Ignore node_modules cache
+node_modules/.cache/
 
 # Built files
 build/
@@ -63,3 +65,4 @@ yarn-debug.log*
 
 # TypeScript specific
 *.tsbuildinfo
+
